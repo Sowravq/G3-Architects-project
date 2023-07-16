@@ -1,5 +1,8 @@
  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
- body{
+ *{
+    /* margin: 0; */
+ }
+ *{
     font-family: 'Work Sans', sans-serif;
  }
  /* primary scttion start */
@@ -71,6 +74,36 @@ nav ul li a{
 }
 /* banar section section off */
 
+/* feature section start */
+main{
+    margin-left: 200px;
+    margin-top: 60px;
+    margin-right: 180px;
+}
+.features{
+    display: flex;
+}
+.feature-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 13px;
+}
+.features img{
+    width: 310px;
+    
+}
+.feature-bio{
+    margin-left: 80px;
+    margin-top: 110px;
+}
+.colar{
+  color: #FF900E ;  
+}
+.low-color{
+    color: #727272;
+}
+
+/* feature section off */
 
 
 
@@ -86,13 +119,54 @@ nav ul li a{
         margin-right: 29px;
     }
     header img{
-        width: 400px;
+        width: 350px;
         height: 350px;
     }
     .banar-img{
-        margin-left: 0px;
+        margin-left: 17px;
         margin-right: 0px;
-        margin-top: 40px;
+        margin-top: 40px; 
 }
+.features{
+    flex-direction: column;
 }
+.feature-img{
+    grid-template-columns: repeat(1,1fr);
+    margin-left: 50px;
+}
+main{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top:60px ;
+}
+.feature-bio{
+    margin-top: 60px;
+    margin-left:60px ;
+}
+
+}
+/* madia mim-width 576 and max width 990px */
+@media screen and (min-width:576px) and (max-width:990px) {
+    header img{
+        width: 600px;
+        height: 500px;
+    } 
+    .banar-img{
+        margin-left:140px ;
+        margin-right: 0px;
+    }
+
+     main{
+        margin-left: 0px;
+     }
+     .feature-bio{
+        margin-left: 30px;
+        margin-top: 50px;
+     }
+     .features img{
+        width: 300px;
+     }
+}
+
+
 
