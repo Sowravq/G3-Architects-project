@@ -106,6 +106,26 @@ main{
 /* feature section off */
 
 
+/* expreance section strat */
+ 
+.discription{
+    color: #131313;
+    font-size: 1.5rem;
+     font-weight: 600;
+}
+.exp-sec-btm{
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    font-size: 3.5rem;
+    font-weight: 700;
+    padding: 30px;
+    border: none;
+}
+
+
+/* expreance section off */
+
 
 
 
