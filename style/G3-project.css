@@ -107,6 +107,11 @@ main{
 
 
 /* expreance section strat */
+.expreance-scetion{
+    display: flex;
+    margin-top: 60px;
+     
+ }
  
 .discription{
     color: #131313;
@@ -122,6 +127,31 @@ main{
     padding: 30px;
     border: none;
 }
+.position{
+     position: relative;
+        bottom: 100px;
+         
+}
+#little-size{
+    font-size: 1rem;
+}
+   
+ .expreance-scetion img{
+    width: 550px;
+    height: 900px;
+    margin-left: 70px;
+ }
+ .ex-img-btm{
+    margin-left: 90px;
+    margin-top: 150px;
+ }
+ .box-disp{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 15px;
+    margin-top: 10px;
+ }
 
 
 /* expreance section off */
@@ -163,7 +193,26 @@ main{
     margin-top: 60px;
     margin-left:60px ;
 }
+.expreance-scetion{
+    flex-direction: column;
+}
 
+.expreance-scetion img{
+    width: 550px;
+    height: 900px;
+    margin-left: 0;
+     
+}
+.position{
+    position: relative;
+       bottom: 100px;
+        
+}
+.ex-img-btm{
+    margin-left: 0px;
+    margin-top: 50px;
+
+}
 }
 /* madia mim-width 576 and max width 990px */
 @media screen and (min-width:576px) and (max-width:990px) {
@@ -186,7 +235,10 @@ main{
      .features img{
         width: 300px;
      }
+     .ex-img-btm{
+        margin-left: 90px;
+        margin-top: 500px;
 }
-
+}
 
 
