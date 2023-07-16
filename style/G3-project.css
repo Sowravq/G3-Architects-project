@@ -1,0 +1,41 @@
+ @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+ body{
+    font-family: 'Work Sans', sans-serif;
+ }
+ /* primary scttion start */
+.color-primary{
+    color: #131313;
+}
+.scound-primary-color{
+    color: #424242;
+}
+
+/* primary section off */
+ 
+
+header{
+    background: rgba(255, 144, 14, 0.10);
+}
+.nav-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-title{
+font-size: 2.8rem;
+font-weight: 700;
+}
+
+nav ul{
+    display: flex;
+    gap: 33px;
+}
+nav ul li{
+     list-style: none;
+}
+nav ul li a{
+     text-decoration: none;
+     color: #424242;
+     font-size: 1.2rem;
+     font-weight: 500;
+}
